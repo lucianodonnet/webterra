@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+  
+  .logov{
+    border-right: 0px solid #d4af37;
+  }
+  
+  
+  .navbar ul{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .header-container {
+    flex-direction: column; /* Coloca logo y texto en una sola columna */
+    gap: 2vh; /* Reduce el espacio entre ellos */
+    height: auto; /* Ajusta la altura automáticamente */
+  }
+  
+
+  .header-logo {
+    max-height: 20vh; /* Reduce el tamaño máximo del logo */
+  }
+  .main_contenedor_grid{
+    grid-template-columns: 1fr; /* Una sola columna */
+  }
+
+}

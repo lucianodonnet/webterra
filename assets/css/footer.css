@@ -1,0 +1,53 @@
+.footer {
+    background: linear-gradient(to right, #d4af37, #ffffff, #d4af37); /* Gradiente dorado */
+    padding: 30px 10px;
+    color: #333; /* Color de texto */
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Secciones del footer */
+  .footer-section {
+    flex: 1 1 300px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  /* Logo */
+  .footer-logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-title {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #444;
+  }
+  
+  /* Contacto */
+  .footer-section.contacto p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #555;
+  }
+  
+
+.footer-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 50%; /* Forma circular */
+    width: 120px; /* Tamaño del círculo */
+    height: 120px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    margin: 0 auto 10px auto; /* Centrado */
+  }
