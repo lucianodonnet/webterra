@@ -16,6 +16,12 @@ h3{
     text-align: center;
 }
 
+h4{
+    font-size: 4vh;
+    text-align: center;
+    font-style: italic;
+}
+
 h5{
     font-size: 3.5vh;
 }
@@ -23,4 +29,6 @@ h5{
 p{
     font-size: 3.5vh;
     text-align: justify;
+    font-family: "Montserrat", serif;
 }
+

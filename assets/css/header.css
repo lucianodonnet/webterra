@@ -27,7 +27,7 @@
 
   .contendor_navbar{
     width:100%;
-    height: 100vh;
+    height: auto;
     background-size: cover; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-attachment: fixed;
@@ -68,8 +68,8 @@
   .contenedor_h2{
     text-align: center;
     color: white;
-    margin-top: 15%;
     font-size: 6vh;
+    padding: 200px 150px 200px 150px;
   }
  
   

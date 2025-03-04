@@ -1,0 +1,222 @@
+.viveka{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../images/logometodoviveka.png');
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logoimage{
+    width:20%;
+    height:20%;
+    margin-bottom: 100px;
+}
+.vivekacontenedor{
+    padding: 80px 0px 0px 0px;
+}
+
+.main_contenedor_valoresdiferenciales{
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  
+.main_contenedor_valoresdiferenciales_item{
+    text-align: center;
+    justify-content: center;
+    width: auto;
+    height: 30vh;
+    padding:5vh;
+   
+    border-radius: 10%;
+    box-sizing:content-box
+  }
+  
+.dirigidoimg{
+    width:35%;
+    height:35%;
+    border-radius: 10%;
+    border-color: black;
+    margin-top: 10px;
+  
+  }
+
+  .separador{
+    margin: 150px 20px 150px 20px;
+  }
+
+  .aspectosdifGrid{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: auto;
+    margin: 40px 20px 20px 20px;
+    gap: 20px; 
+  }
+
+  .aspectosdifGridItem{
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #d4af37;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    height: auto;
+  }
+
+  .aspectosdifGridItem p{
+    margin-top: 20px;
+  }
+
+  .aspectosdifGridItem h5{
+    text-align: center;
+  }
+  
+  .sepfrase{
+    margin: 100px 20px 100px 20px;
+    border-bottom: 3px solid #d4af37;
+    border-top: 3px solid #d4af37;
+    text-align: center;
+    
+    
+  }
+
+  .separadoraspectos{
+    padding: 50px 0px;
+    border-bottom: 3px solid #d4af37;
+    border-top: 3px solid #d4af37;
+    
+  }
+
+  .separadoraspectos h5{
+    color: #C7952A;
+  }
+
+  .separadoraspectos h3{
+    color: #C7952A;
+    margin: 0px;
+  }
+
+  .separadoraspectos h4{
+    text-align: center;
+    font-size: 3vh;
+  }
+  
+
+  .metasGrid{
+    display: grid; 
+    grid-template-columns: 1fr 1fr ; 
+    grid-template-rows: auto;
+    margin: 40px 20px 20px 20px;
+    gap: 30px; 
+  }
+
+  .metasGridItem{
+    background: linear-gradient(45deg, #f4cb5d, #C7952A);
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+  }
+
+  .metodologiaGrid{
+    display: grid; 
+    grid-template-columns: 1fr 1fr ; 
+    grid-template-rows: auto;
+    margin: 40px 20px 20px 20px;
+    gap: 30px; 
+  }
+
+  .metodologiaGridItem{
+    background: linear-gradient(45deg, #f4cb5d, #C7952A);
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+  }
+
+  .separadorfrase{
+    background: radial-gradient(circle, 
+    white 0%,       /* Color blanco en el centro */
+    #f4cc5dc5 80%   /* Color de las esquinas */
+    
+);
+margin-left: 0px;
+margin-right: 0px;
+    padding: 80px;
+  }
+
+  .separadordirigido{
+    background: radial-gradient(circle, 
+    white 0%,       /* Color blanco en el centro */
+    #f4cc5dc5 80%   /* Color de las esquinas */
+);
+    padding: 30px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .h2frase{
+    color: black;
+    margin: 20px 0px 0px 0px ;
+    font-style: italic;
+
+  }
+
+  .main_contenedor_valoresdiferenciales_item_image{
+    width:15%;
+    height:15%;
+    border-radius: 10%;
+    border-color: black;
+    margin-top: 10px;
+  
+  }
+
+  .separadorfrase p{
+    font-style: italic;
+   
+  }
+
+  .separadorfrase_flex{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .recuadro{
+    border: 3px solid #d4af37;
+    margin-top:20px;
+    margin-bottom: 20px;
+  }
+
+  .h5fase{
+    text-align: center;
+  }
+  
+  .recuadroseparador{
+    margin:20px
+  }
+
+  .h5espacios{
+    margin:10px;
+  }
+
+  .recuadro ol,.separador ul{
+    list-style:none;
+    font-size: inherit;
+  }
+
+  .recuadro li,.separador li{
+    background: #d4af37;;
+    color: black;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: transform 0.3s;
+    font-size: 3.5vh;
+  }
+  .recuadro li:hover,.separador li:hover{ 
+    background: #e9c85a;}
+  .separadorfrase_flex_image{
+    width:60%;
+    height:60%;
+    border-radius: 50%;
+    border-color: black;
+    margin-top: 10px;
+    border: 2px solid #C7952A;
+  }

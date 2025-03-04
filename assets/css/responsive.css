@@ -25,4 +25,7 @@
     grid-template-columns: 1fr; /* Una sola columna */
   }
 
+  .main_contenedor_valoresdiferenciales {
+    flex-direction: column;}
+
 }

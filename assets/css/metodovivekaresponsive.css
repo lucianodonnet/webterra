@@ -1,0 +1,8 @@
+@media (max-width: 768px) {.aspectosdifGrid,.metasGrid,.metodologiaGrid{
+    grid-template-columns: 1fr; 
+}
+
+.separadorfrase,.separadorfrase_flex{
+    flex-direction: column;
+}
+}
